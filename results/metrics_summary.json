@@ -1,0 +1,206 @@
+{
+  "mixing_matrix": [
+    [
+      0.82,
+      0.45,
+      0.31
+    ],
+    [
+      0.35,
+      0.88,
+      0.42
+    ],
+    [
+      0.29,
+      0.38,
+      0.85
+    ]
+  ],
+  "eigenvalues_cov": [
+    2.596766119742253,
+    0.2900580112197876,
+    0.17711728379354583
+  ],
+  "fastica_iterations": 7,
+  "mixed_baseline_metrics": [
+    {
+      "source_index": 1,
+      "source_name": "source_1_speech",
+      "matched_component": 0,
+      "sign_flip": 1,
+      "abs_correlation": 0.8375625107160235,
+      "sdr_db": 3.7110607003069247,
+      "kurtosis_true": 4.393224280307477,
+      "kurtosis_recovered": 3.0447268398644463
+    },
+    {
+      "source_index": 2,
+      "source_name": "source_2_music",
+      "matched_component": 1,
+      "sign_flip": 1,
+      "abs_correlation": 0.8533500638815411,
+      "sdr_db": 4.280151151936719,
+      "kurtosis_true": 0.5272797666081095,
+      "kurtosis_recovered": 0.8209966832478401
+    },
+    {
+      "source_index": 3,
+      "source_name": "source_3_ambient",
+      "matched_component": 2,
+      "sign_flip": 1,
+      "abs_correlation": 0.8679654291231045,
+      "sdr_db": 4.8494836266006525,
+      "kurtosis_true": 6.130368728933778,
+      "kurtosis_recovered": 3.634954589920916
+    }
+  ],
+  "pca_metrics": [
+    {
+      "source_index": 1,
+      "source_name": "source_1_speech",
+      "matched_component": 0,
+      "sign_flip": -1,
+      "abs_correlation": 0.5459557383753684,
+      "sdr_db": -3.71980376752749,
+      "kurtosis_true": 4.393224280307477,
+      "kurtosis_recovered": 1.5905399719902045
+    },
+    {
+      "source_index": 2,
+      "source_name": "source_2_music",
+      "matched_component": 2,
+      "sign_flip": -1,
+      "abs_correlation": 0.7502584798879183,
+      "sdr_db": 1.0982888429670445,
+      "kurtosis_true": 0.5272797666081095,
+      "kurtosis_recovered": 0.7083746600712999
+    },
+    {
+      "source_index": 3,
+      "source_name": "source_3_ambient",
+      "matched_component": 1,
+      "sign_flip": 1,
+      "abs_correlation": 0.7560217989948312,
+      "sdr_db": 1.251877085540245,
+      "kurtosis_true": 6.130368728933778,
+      "kurtosis_recovered": 3.0029757054099813
+    }
+  ],
+  "ica_metrics": [
+    {
+      "source_index": 1,
+      "source_name": "source_1_speech",
+      "matched_component": 0,
+      "sign_flip": -1,
+      "abs_correlation": 0.9998448285363054,
+      "sdr_db": 35.08057053271324,
+      "kurtosis_true": 4.393224280307477,
+      "kurtosis_recovered": 4.423232525886481
+    },
+    {
+      "source_index": 2,
+      "source_name": "source_2_music",
+      "matched_component": 2,
+      "sign_flip": 1,
+      "abs_correlation": 0.9983237434463407,
+      "sdr_db": 24.735364630154674,
+      "kurtosis_true": 0.5272797666081095,
+      "kurtosis_recovered": 0.5191930682508406
+    },
+    {
+      "source_index": 3,
+      "source_name": "source_3_ambient",
+      "matched_component": 1,
+      "sign_flip": 1,
+      "abs_correlation": 0.9999476017115491,
+      "sdr_db": 39.79618767532337,
+      "kurtosis_true": 6.130368728933778,
+      "kurtosis_recovered": 6.1315122891717575
+    }
+  ],
+  "snr_sweep": [
+    {
+      "snr_db": 0,
+      "ica_mean_corr": 0.5384250193361143,
+      "ica_mean_sdr_db": -3.915524325241927,
+      "pca_mean_corr": 0.3732418593375195,
+      "pca_mean_sdr_db": -8.399637768266317
+    },
+    {
+      "snr_db": 5,
+      "ica_mean_corr": 0.7310517498628797,
+      "ica_mean_sdr_db": 0.6259079970860858,
+      "pca_mean_corr": 0.49234301322877644,
+      "pca_mean_sdr_db": -4.95882403217746
+    },
+    {
+      "snr_db": 10,
+      "ica_mean_corr": 0.8759324328651399,
+      "ica_mean_sdr_db": 5.211514662154426,
+      "pca_mean_corr": 0.5936870650856069,
+      "pca_mean_sdr_db": -2.6381958885591916
+    },
+    {
+      "snr_db": 15,
+      "ica_mean_corr": 0.9531411569881237,
+      "ica_mean_sdr_db": 10.000584198544543,
+      "pca_mean_corr": 0.6497664619988228,
+      "pca_mean_sdr_db": -1.3244424296913204
+    },
+    {
+      "snr_db": 20,
+      "ica_mean_corr": 0.9835065999276095,
+      "ica_mean_sdr_db": 14.75607067355976,
+      "pca_mean_corr": 0.6724019899360197,
+      "pca_mean_sdr_db": -0.7603459004187604
+    },
+    {
+      "snr_db": 25,
+      "ica_mean_corr": 0.9942893900308705,
+      "ica_mean_sdr_db": 19.486401048091295,
+      "pca_mean_corr": 0.6803015365528013,
+      "pca_mean_sdr_db": -0.5559555238140562
+    },
+    {
+      "snr_db": 30,
+      "ica_mean_corr": 0.9977620684084298,
+      "ica_mean_sdr_db": 23.80018645959476,
+      "pca_mean_corr": 0.6828566616488455,
+      "pca_mean_sdr_db": -0.48881115215871684
+    },
+    {
+      "snr_db": 35,
+      "ica_mean_corr": 0.9988600775774108,
+      "ica_mean_sdr_db": 27.395182043737204,
+      "pca_mean_corr": 0.6837255500413777,
+      "pca_mean_sdr_db": -0.4658462603732952
+    },
+    {
+      "snr_db": 40,
+      "ica_mean_corr": 0.9992059429511705,
+      "ica_mean_sdr_db": 30.100723358848153,
+      "pca_mean_corr": 0.683961594811775,
+      "pca_mean_sdr_db": -0.45965847424497236
+    }
+  ],
+  "mini_shazam_music_query": {
+    "Track_01_Speech_Podcast": 15,
+    "Track_02_C_Major_Synth_Arp": 1154,
+    "Track_03_Ambient_Rainstorm": 208,
+    "Track_04_Cyberpunk_Bassline": 86,
+    "Track_05_Pentatonic_Chime": 67,
+    "Track_06_Jazz_Walking_Triad": 242,
+    "Track_07_LoFi_Chord_Loop": 120,
+    "Track_08_Arcade_8Bit_Lead": 138
+  },
+  "mini_shazam_speech_query": {
+    "Track_01_Speech_Podcast": 534,
+    "Track_02_C_Major_Synth_Arp": 381,
+    "Track_03_Ambient_Rainstorm": 275,
+    "Track_04_Cyberpunk_Bassline": 65,
+    "Track_05_Pentatonic_Chime": 20,
+    "Track_06_Jazz_Walking_Triad": 168,
+    "Track_07_LoFi_Chord_Loop": 85,
+    "Track_08_Arcade_8Bit_Lead": 47
+  }
+}
